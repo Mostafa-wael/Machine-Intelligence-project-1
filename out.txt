@@ -1,0 +1,22 @@
+
+Problem Set 1: Search
+
+Problem: Heuristic
+1: Dungeon 1 :: time-limit = 4sec
+Result: PASS 4/4 - Explored 399 nodes in 0.021764039993286133 seconds
+2: Dungeon 3 :: time-limit = 10sec
+Result: PASS 2/6 - Explored 7044 nodes in 3.455347776412964 seconds
+grade = 0 if nodes > 17000
+grade = 1 if 17000 >= nodes > 7000
+grade = 2 if 7000 >= nodes > 700
+grade = 3 if 700 >= nodes
+3: Dungeon 4 :: time-limit = 1sec
+Result: FAIL 0/2 - Timeout
+Input positional arguments:
+- 'search.AStarSearch'
+- DungeonProblem.from_file('dungeons/dungeon4.txt')
+
+Total 6/12
+
+Problem Set Total 6/12
+
